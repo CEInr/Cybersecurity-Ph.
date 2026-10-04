@@ -44,13 +44,13 @@
     </nav>
 
 
-<button class="theme-toggle" id="themeToggle">
+<button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle color theme" aria-pressed="false">
 
     <span id="modeLabel">LIGHT</span>
 
-    <div class="toggle-circle">
+    <div class="toggle-circle" aria-hidden="true">
 
-        <svg class="sun-icon" viewBox="0 0 24 24">
+        <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true">
             <circle cx="12" cy="12" r="4"></circle>
 
             <line x1="12" y1="2" x2="12" y2="5"></line>
@@ -67,20 +67,18 @@
         </svg>
 
 
-<svg class="moon-icon" viewBox="0 0 24 24" fill="none">
-    <path
-        d="M20.2 15.7C18.9 18.1 16.4 19.7 13.5 19.7
-           C9.1 19.7 5.5 16.1 5.5 11.7
-           C5.5 8.1 7.9 4.9 11.2 3.9
-           C10.6 5.1 10.3 6.5 10.3 7.9
-           C10.3 12.3 13.9 15.9 18.3 15.9
-           C18.9 15.9 19.6 15.8 20.2 15.7Z">
-    </path>
-</svg>
+        <svg class="moon-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path
+                d="M20.2 15.7C18.9 18.1 16.4 19.7 13.5 19.7
+                   C9.1 19.7 5.5 16.1 5.5 11.7
+                   C5.5 8.1 7.9 4.9 11.2 3.9
+                   C10.6 5.1 10.3 6.5 10.3 7.9
+                   C10.3 12.3 13.9 15.9 18.3 15.9
+                   C18.9 15.9 19.6 15.8 20.2 15.7Z">
+            </path>
+        </svg>
 
     </div>
-
-</button>
 
 </button>
 
@@ -846,7 +844,7 @@
         </div>
 
         <div>
-            STAY ALERT. STAY SECURE. Arange By Albert Jr. D San Miguel
+            STAY ALERT. STAY SECURE. Arrange By Albert Jr. D San Miguel
         </div>
 
     </footer>
