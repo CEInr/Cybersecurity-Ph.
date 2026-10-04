@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cyber Security Awareness - Coded In VScode By Albert Jr. D San Miguel</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Roboto+Mono:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <canvas id="binaryCanvas"></canvas>
+
+    <nav class="navbar">
+
+        <a href="#home" class="logo">
+            <img src="/home/math/Downloads/CyberSecurity/items/logo.png" alt="Cyber Security Logo">
+        </a>
+
+        <div class="nav-links">
+            <a href="#home">HOME</a>
+            <a href="#passwords">PASSWORDS</a>
+            <a href="#manager">MANAGER</a>
+            <a href="#mfa">2FA / MFA</a>
+            <a href="#passkeys">PASSKEYS</a>
+            <a href="#account">ACCOUNT</a>
+            <a href="#login">LOGIN</a>
+            <a href="#recovery">RECOVERY</a>
+            <a href="#questions">QUESTIONS</a>
+            <a href="#checklist">CHECKLIST</a>
+            <a href="#device">DEVICE</a>
+        </div>
+
+    </nav>
+
+
+<button class="theme-toggle" id="themeToggle">
+
+    <span id="modeLabel">LIGHT</span>
+
+    <div class="toggle-circle">
+
+        <svg class="sun-icon" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="4"></circle>
+
+            <line x1="12" y1="2" x2="12" y2="5"></line>
+            <line x1="12" y1="19" x2="12" y2="22"></line>
+
+            <line x1="2" y1="12" x2="5" y2="12"></line>
+            <line x1="19" y1="12" x2="22" y2="12"></line>
+
+            <line x1="4.9" y1="4.9" x2="7" y2="7"></line>
+            <line x1="17" y1="17" x2="19.1" y2="19.1"></line>
+
+            <line x1="17" y1="7" x2="19.1" y2="4.9"></line>
+            <line x1="4.9" y1="19.1" x2="7" y2="17"></line>
+        </svg>
+
+
+<svg class="moon-icon" viewBox="0 0 24 24" fill="none">
+    <path
+        d="M20.2 15.7C18.9 18.1 16.4 19.7 13.5 19.7
+           C9.1 19.7 5.5 16.1 5.5 11.7
+           C5.5 8.1 7.9 4.9 11.2 3.9
+           C10.6 5.1 10.3 6.5 10.3 7.9
+           C10.3 12.3 13.9 15.9 18.3 15.9
+           C18.9 15.9 19.6 15.8 20.2 15.7Z">
+    </path>
+</svg>
+
+    </div>
+
+</button>
+
+</button>
+
+
+    <main>
+
+        <!-- HOME -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <span class="eyebrow">
+                    CYBER SECURITY AWARENESS.
+                </span>
+
+                <h1>
+                    STRONG PASSWORDS.<br>
+                    <span>STRONGER SECURITY.</span>
+                </h1>
+
+                <p>
+                    Your password is one of the first things protecting
+                    your digital identity. Learn simple ways to secure
+                    your accounts and protect your online life.
+                </p>
+
+                <a href="#passwords" class="hero-button">
+                    EXPLORE SECURITY →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- INTRO -->
+
+        <section class="intro reveal">
+
+            <span class="section-number">
+                00 / START
+            </span>
+
+            <h2>
+                YOUR PASSWORD<br>
+                <span>IS YOUR FIRST LINE OF DEFENSE.</span>
+            </h2>
+
+            <p>
+                A strong password is only one part of account security.
+                Combine unique credentials, multi-factor authentication,
+                secure devices, and safe login habits to protect your
+                digital identity.
+            </p>
+
+            <div class="scroll-indicator">
+
+                <span>
+                    SCROLL TO EXPLORE
+                </span>
+
+                <div class="scroll-line"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- STRONG PASSWORDS -->
+
+        <section class="security-section reveal" id="passwords">
+
+            <div class="section-header">
+
+                <span>01</span>
+
+                <h2>
+                    STRONG PASSWORDS
+                </h2>
+
+            </div>
+
+
+            <div class="content-grid">
+
+                <div>
+
+                    <p class="large-text">
+                        Make your passwords difficult to guess
+                        and different for every important account.
+                    </p>
+
+                </div>
+
+
+                <div class="info-box">
+
+                    <h3>"DO" This</h3>
+
+                    <ul>
+
+                        <li>
+                            Use long passwords or passphrases
+                        </li>
+
+                        <li>
+                            Use a different password for every account
+                        </li>
+
+                        <li>
+                            Use multiple words in a passphrase
+                        </li>
+
+                        <li>
+                            Use a password manager
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="info-box">
+
+                    <h3>DO "NOT" DO This</h3>
+
+                    <ul>
+
+                        <li>
+                            Use your name or birthday
+                        </li>
+
+                        <li>
+                            Reuse the same password everywhere
+                        </li>
+
+                        <li>
+                            Use obvious patterns
+                        </li>
+
+                        <li>
+                            Share your passwords
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PASSWORD MANAGER -->
+
+        <section class="security-section reveal" id="manager">
+
+            <div class="section-header">
+
+                <span>02</span>
+
+                <h2>
+                    PASSWORD MANAGER
+                </h2>
+
+            </div>
+
+
+            <div class="content-grid two">
+
+                <div>
+
+                    <p class="large-text">
+                        A password manager can securely store
+                        your passwords so you don't have to
+                        remember every one.
+                    </p>
+
+                </div>
+
+
+                <div class="info-box">
+
+                    <ul>
+
+                        <li>
+                            Generates strong passwords
+                        </li>
+
+                        <li>
+                            Stores unique passwords
+                        </li>
+
+                        <li>
+                            Helps prevent password reuse
+                        </li>
+
+                        <li>
+                            Makes long passwords easier to manage
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- MFA -->
+
+        <section class="security-section reveal" id="mfa">
+
+            <div class="section-header">
+
+                <span>03</span>
+
+                <h2>
+                    2FA / MFA
+                </h2>
+
+            </div>
+
+
+            <div class="content-grid two">
+
+                <div>
+
+                    <p class="large-text">
+                        Passwords aren't always enough.
+                        Multi-factor authentication adds
+                        another verification step.
+                    </p>
+
+                </div>
+
+
+                <div class="info-box">
+
+                    <h3>
+                        EXAMPLES
+                    </h3>
+
+                    <ul>
+
+                        <li>
+                            Authentication apps
+                        </li>
+
+                        <li>
+                            Security keys
+                        </li>
+
+                        <li>
+                            One-time codes
+                        </li>
+
+                        <li>
+                            Biometric authentication
+                        </li>
+
+                    </ul>
+
+
+                    <p class="tip">
+                        TIP: Turn on MFA whenever an account supports it.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PASSKEYS -->
+
+        <section class="security-section reveal" id="passkeys">
+
+            <div class="section-header">
+
+                <span>04</span>
+
+                <h2>
+                    PASSKEYS
+                </h2>
+
+            </div>
+
+
+            <div class="content-grid two">
+
+                <div>
+
+                    <p class="large-text">
+                        Passkeys are a modern way to sign in
+                        without relying on traditional passwords.
+                    </p>
+
+                </div>
+
+
+                <div class="info-box">
+
+                    <h3>
+                        PASSKEYS CAN USE
+                    </h3>
+
+                    <ul>
+
+                        <li>
+                            Fingerprints
+                        </li>
+
+                        <li>
+                            Face recognition
+                        </li>
+
+                        <li>
+                            Device PINs
+                        </li>
+
+                        <li>
+                            Security keys
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ACCOUNT -->
+
+        <section class="security-section reveal" id="account">
+
+            <div class="section-header">
+
+                <span>05</span>
+
+                <h2>
+                    ACCOUNT SECURITY
+                </h2>
+
+            </div>
+
+
+            <div class="content-grid two">
+
+                <div>
+
+                    <p class="large-text">
+                        Protect the account itself,
+                        not just the password.
+                    </p>
+
+                </div>
+
+
+                <div class="info-box">
+
+                    <h3>
+                        CHECK REGULARLY
+                    </h3>
+
+                    <ul>
+
+                        <li>
+                            Active sessions
+                        </li>
+
+                        <li>
+                            Logged-in devices
+                        </li>
+
+                        <li>
+                            Connected applications
+                        </li>
+
+                        <li>
+                            Security notifications
+                        </li>
+
+                        <li>
+                            Recovery information
+                        </li>
+
+                        <li>
+                            MFA settings
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- LOGIN -->
+
+        <section class="security-section reveal" id="login">
+
+            <div class="section-header">
+
+                <span>06</span>
+
+                <h2>
+                    LOGIN SAFETY
+                </h2>
+
+            </div>
+
+
+            <div class="login-flow">
+
+                <div class="flow-step">
+
+                    <span>01</span>
+
+                    <h3>
+                        STOP
+                    </h3>
+
+                    <p>
+                        Don't immediately click unexpected
+                        login links.
+                    </p>
+
+                </div>
+
+
+                <div class="flow-line"></div>
+
+
+                <div class="flow-step">
+
+                    <span>02</span>
+
+                    <h3>
+                        CHECK
+                    </h3>
+
+                    <p>
+                        Look at the website address carefully.
+                    </p>
+
+                </div>
+
+
+                <div class="flow-line"></div>
+
+
+                <div class="flow-step">
+
+                    <span>03</span>
+
+                    <h3>
+                        LOGIN
+                    </h3>
+
+                    <p>
+                        Only enter credentials on a trusted website.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- RECOVERY -->
+
+        <section class="security-section reveal" id="recovery">
+
+            <div class="section-header">
+
+                <span>07</span>
+
+                <h2>
+                    RECOVERY OPTIONS
+                </h2>
+
+            </div>
+
+
+            <div class="content-grid two">
+
+                <div>
+
+                    <p class="large-text">
+                        Recovery methods can help you regain
+                        access if you lose your password or device.
+                    </p>
+
+                </div>
+
+
+                <div class="info-box">
+
+                    <h3>
+                        KEEP UPDATED
+                    </h3>
+
+                    <ul>
+
+                        <li>
+                            Recovery email
+                        </li>
+
+                        <li>
+                            Recovery phone number
+                        </li>
+
+                        <li>
+                            Backup codes
+                        </li>
+
+                        <li>
+                            Security keys
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SECURITY QUESTIONS -->
+
+        <section class="security-section reveal" id="questions">
+
+            <div class="section-header">
+
+                <span>08</span>
+
+                <h2>
+                    SECURITY QUESTIONS
+                </h2>
+
+            </div>
+
+
+            <div class="content-grid two">
+
+                <div>
+
+                    <p class="large-text">
+                        Security questions can sometimes
+                        be used to recover an account.
+                    </p>
+
+                </div>
+
+
+                <div class="info-box">
+
+                    <h3>
+                        BE CAREFUL
+                    </h3>
+
+                    <p>
+                        Avoid answers that can easily be discovered
+                        from social media, public profiles, or basic
+                        personal information.
+                    </p>
+
+                    <p>
+                        If a service allows it, use a unique answer
+                        that isn't publicly connected to you.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CHECKLIST -->
+
+        <section class="security-section reveal" id="checklist">
+
+            <div class="section-header">
+
+                <span>09</span>
+
+                <h2>
+                    PASSWORD CHECKLIST
+                </h2>
+
+            </div>
+
+
+            <div class="checklist">
+
+                <button class="check-item" type="button">
+                    <span class="check-box">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M5 12.5L9.5 17L19 7" />
+                        </svg>
+                    </span>
+                    <p>Is it long enough?</p>
+                </button>
+
+                <button class="check-item" type="button">
+                    <span class="check-box">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M5 12.5L9.5 17L19 7" />
+                        </svg>
+                    </span>
+                    <p>Is it unique?</p>
+                </button>
+
+                <button class="check-item" type="button">
+                    <span class="check-box">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M5 12.5L9.5 17L19 7" />
+                        </svg>
+                    </span>
+                    <p>Have I avoided personal information?</p>
+                </button>
+
+                <button class="check-item" type="button">
+                    <span class="check-box">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M5 12.5L9.5 17L19 7" />
+                        </svg>
+                    </span>
+                    <p>Have I avoided common passwords?</p>
+                </button>
+
+                <button class="check-item" type="button">
+                    <span class="check-box">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M5 12.5L9.5 17L19 7" />
+                        </svg>
+                    </span>
+                    <p>Is MFA enabled?</p>
+                </button>
+
+                <button class="check-item" type="button">
+                    <span class="check-box">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M5 12.5L9.5 17L19 7" />
+                        </svg>
+                    </span>
+                    <p>Is the account protected by recovery options?</p>
+                </button>
+
+            </div>
+
+
+            <p class="large-text">
+                6 Checks To Keep Your Account Intact.
+            </p>
+
+        </section>
+
+
+        <!-- DEVICE -->
+
+        <section class="security-section reveal" id="device">
+
+            <div class="section-header">
+
+                <span>10</span>
+
+                <h2>
+                    DEVICE LOCK
+                </h2>
+
+            </div>
+
+
+            <div class="content-grid two">
+
+                <div>
+
+                    <p class="large-text">
+                        Your device contains access to many
+                        of your accounts. Protect it.
+                    </p>
+
+                </div>
+
+
+                <div class="info-box">
+
+                    <h3>
+                        USE
+                    </h3>
+
+                    <ul>
+
+                        <li>
+                            PIN
+                        </li>
+
+                        <li>
+                            Password
+                        </li>
+
+                        <li>
+                            Fingerprint
+                        </li>
+
+                        <li>
+                            Face recognition
+                        </li>
+
+                        <li>
+                            Automatic screen lock
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FINAL -->
+
+        <section class="final reveal">
+
+
+            <h2>
+                YOUR PASSWORD<br>
+                <span>IS ONLY THE START.</span>
+            </h2>
+
+            <p>
+                Strong passwords + secure devices +
+                safe login habits = better account protection.
+            </p>
+
+            <div class="final-message">
+                THINK BEFORE YOU SIGN IN.
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div>
+            CYBER SECURITY AWARENESS
+        </div>
+
+        <div>
+            STAY ALERT. STAY SECURE. Arange By Albert Jr. D San Miguel
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
